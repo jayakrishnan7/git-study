@@ -1,9 +1,8 @@
 import express from "express";
+import { homeRoute } from "../controllers";
 
 const router = express.Router();
 
-router.get('/', (req: any,res: any) => {
-    res.send("my base app");
-})
+router.get('/', homeRoute)
 
 export { router };
