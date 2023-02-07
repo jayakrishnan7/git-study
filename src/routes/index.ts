@@ -5,6 +5,3 @@ const router = express.Router();
 
 router.get('/', homeRoute)
 
-,jhkjhgjhbj
-new code added
-new in main
